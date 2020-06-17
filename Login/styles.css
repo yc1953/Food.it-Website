@@ -1,0 +1,247 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    width: 1000px;
+    height: auto;
+}
+
+.intro {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    height: 90vh;
+    background: url(backg2.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Molle', cursive;
+    /*    color: white;*/
+}
+
+input, select {
+    color: #cf1717 !important;
+}
+
+input:focus {
+    color: #cf1717 !important;
+}
+
+footer {
+    padding: 1%;
+    background: #414040;
+    color: #888888;
+}
+
+footer i{
+    margin: 0 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+footer i:hover {
+    color: #e83131;
+}
+
+.copyright{
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+.services {
+    background-color: #e83131;
+    color: white;
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.services h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.adv {
+    padding: 5%;
+    transition: all 0.3s;
+    border-radius: 100%;
+}
+
+.adv:hover {
+    background-color: white;
+    color: #e83131;
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.icon:hover {
+    color: #cf1717;
+}
+
+.form-control:focus {
+    outline: none;
+    border: 3px solid #cf1717;
+    box-shadow: 0 0 10px;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.middle {
+    border-radius: 0;
+}
+
+.bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.box {
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    right: 5%;
+    bottom: 30%;
+    cursor: pointer;
+    color: #a9a9a9;
+}
+
+.eye:hover {
+    color: #000;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #cf1717;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.signin,
+.signin:hover,
+.signin:active {
+    color: #cf1717;
+}
+
+.imgwall {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.dish {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.3);
+    transition: transform 0.5s,opacity 0.5s;
+}
+
+.spl {
+    padding: 0;
+    margin-left: -15px;
+}
+
+.item-dish {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.dish:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.public-reviews {
+    background-color: #fff;
+    color: #e83131;
+}
+
+.public-reviews h1{
+    font-size: 3rem;
+    text-align: left;
+    padding: 3%;
+    color: white;
+    background-color: #cf1717;
+}
+
+li {
+    color: #e83131;
+}
+
+.customer {
+    width: 200px;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.carousel-item {
+    color: #e83131;
+    padding: 5%;
+}
+.carousel-item h2 {
+    margin-bottom: 30px;
+}
+
+.customer-review {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.con {
+    background-color: #e83131;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    }
+
+    .signup {
+        width: 100%;
+    }
+}
+
+

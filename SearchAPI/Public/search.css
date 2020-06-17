@@ -1,0 +1,102 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.navigation {
+    background-color: #fff;
+}
+
+.logo-a{
+    margin-right: 5%;
+}
+
+.search-menu {
+    width: 80%;
+}
+
+.search-city {
+    display: inline-block;
+    width: 20%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.search-bar{
+    display: inline-block;
+    width: 50%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.search-bar:focus,
+.search-city:focus{
+    outline: none; 
+    border: 3px solid #cf1717;
+}
+
+.search-bar:hover,
+.search-city:hover{
+    box-shadow: 0 0 10px;
+}
+
+input, select {
+    color: #cf1717 !important;
+}
+
+input:focus {
+    color: #cf1717 !important;
+}
+
+.search-btn {
+    border: 1px solid #cf1717;
+    color: #cf1717;
+}
+
+.search-btn:hover {
+    border: 1px solid #cf1717;
+    background-color: #cf1717;
+    color: #fff;
+}
+
+.drop {
+    width: 10%;
+}
+
+.icon {
+    font-size: 1.2rem;
+    color: #e83131;
+    margin-right: 10px;
+}
+
+.icon:hover, 
+.icon:active {
+    color: #cf1717;
+}
+
+.user {
+    font-size: 1.2rem;
+    color: #e83131;
+}
